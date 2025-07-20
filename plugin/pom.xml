@@ -6,7 +6,7 @@
     <artifactId>minecraft-plugin</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Minecraft Coding Challenge Plugin</name>
+        <name>Minecraft Coding Challenge Plugin</name>
     <description>A fun and educational Minecraft plugin for kids to learn Java programming</description>
 
     <properties>
