@@ -7,17 +7,17 @@
 
 ## 🚀 Phase 1: Foundation & Basic Content
 ### Core Setup
-- [ ] Fix POM.xml dependencies (add Spigot/Bukkit API)
+- [x] Fix POM.xml dependencies (add Spigot/Bukkit API)
 - [ ] Create engaging project README.md
-- [ ] Set up basic project structure
-- [ ] Test current plugin functionality
+- [x] Set up basic project structure
+- [x] Test current plugin functionality
 
 ### Code Quality & Development Tools
 - [ ] Add Maven code formatting (Google Java Format or similar)
 - [ ] Configure SpotBugs for static analysis
 - [ ] Set up Checkstyle with kid-friendly rules
 - [ ] Add PMD for code quality checks
-- [ ] Configure EditorConfig for consistent formatting
+- [x] Configure EditorConfig for consistent formatting
 - [ ] Set up pre-commit hooks for quality checks
 - [ ] Add GitHub Actions for CI/CD
 - [ ] Configure automatic dependency updates (Dependabot)
