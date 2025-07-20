@@ -109,6 +109,8 @@ You should see: `Hello, world!`
 
 🎉 **Congratulations!** Your development environment is ready!
 
+> 🔍 **Not sure if everything is working?** Use our [Setup Verification Guide](docs/setup-verification.md) to double-check!
+
 ## 📚 Learning Path
 
 ### 🥇 **Beginner Challenges**

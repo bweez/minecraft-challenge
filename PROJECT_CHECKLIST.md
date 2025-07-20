@@ -8,7 +8,7 @@
 ## 🚀 Phase 1: Foundation & Basic Content
 ### Core Setup
 - [x] Fix POM.xml dependencies (add Spigot/Bukkit API)
-- [ ] Create engaging project README.md
+- [x] Create engaging project README.md
 - [x] Set up basic project structure
 - [x] Test current plugin functionality
 
