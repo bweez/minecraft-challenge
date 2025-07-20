@@ -120,8 +120,7 @@
 
   "containerEnv": {
     "JAVA_HOME": "/usr/local/sdkman/candidates/java/current",
-    "MAVEN_HOME": "/usr/local/sdkman/candidates/maven/current",
-    "PATH": "/usr/local/sdkman/candidates/java/current/bin:/usr/local/sdkman/candidates/maven/current/bin:${PATH}"
+    "MAVEN_HOME": "/usr/local/sdkman/candidates/maven/current"
   },
 
   "workspaceFolder": "/workspaces/minecraft-challenge",

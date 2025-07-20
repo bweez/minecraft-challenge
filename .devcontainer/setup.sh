@@ -79,6 +79,11 @@ else
     print_success "Maven installed successfully"
 fi
 
+# Set up Java and Maven environment variables
+print_status "Setting up Java and Maven environment..."
+echo 'export JAVA_HOME=/usr/local/sdkman/candidates/java/current' | sudo tee -a /etc/environment
+echo 'export PATH=$JAVA_HOME/bin:$PATH' | sudo tee -a /etc/environment
+
 # Set up workspace permissions
 print_status "Setting up workspace permissions..."
 sudo chown -R vscode:vscode /workspaces/minecraft-challenge
