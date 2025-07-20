@@ -24,8 +24,14 @@ Welcome to the most fun way to learn Java programming! Create your own Minecraft
 You have two options for working on this project:
 
 #### Option A: GitHub Codespaces (Recommended for Beginners)
-✅ **Pros**: No setup required, works in your browser  
+✅ **Pros**: No setup required, works in your browser, pre-configured environment  
 ❌ **Cons**: You'll code in the cloud but need to run Minecraft server locally
+
+**Features included:**
+- 🚀 **Auto-setup** - Java 17, Maven, and all extensions pre-installed
+- 🛠️ **Helpful commands** - `mcbuild`, `mcpackage`, `mctest` aliases ready to use  
+- 🎯 **Quick start** - Run `./quick-start.sh` to begin your first challenge
+- 📚 **Complete guides** - Detailed help in `.devcontainer/CODESPACE_GUIDE.md`
 
 #### Option B: Local Development
 ✅ **Pros**: Everything runs on your computer  
