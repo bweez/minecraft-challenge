@@ -2,32 +2,55 @@
 
 Welcome to the most fun way to learn Java programming! Create your own Minecraft plugins and see your code come to life in the game.
 
-## 🤔 Before You Start
+## 🚀 Quick Start with Docker
 
-**Important**: This project involves two parts:
-1. **💻 Coding** - Writing Java code (can be done in GitHub Codespaces or locally)
-2. **🎮 Gaming** - Running Minecraft server and playing (must be done on your local computer)
+This project uses **Docker** to create a consistent Minecraft server environment. Here's how to get started:
 
-**Why?** Minecraft needs to run on your computer to see the game, but you can write code anywhere!
+### 1. Open in GitHub Codespace
+- Click the green "Code" button above
+- Select "Create codespace on main"
+- Wait for the environment to load
+
+### 2. Build and Run the Server
+```bash
+# Build the Minecraft server with your plugin
+docker-compose build
+
+# Start the server
+docker-compose up
+```
+
+### 3. What Happens Next
+- Docker downloads Paper Minecraft Server 1.20.1
+- Compiles your Java plugin automatically
+- Starts the server on port 25565
+- Your plugin loads and becomes available in-game!
+
+### 4. Connect and Test
+- Check the "Ports" tab in VS Code for the forwarded URL
+- Connect with Minecraft Java Edition 1.20.1
+- Type `/hello` in chat to test your plugin!
+
+## 📖 Understanding the Setup
+
+### The Docker Advantage
+- **Consistent Environment**: Same setup for everyone
+- **No Local Installation**: Everything runs in containers
+- **Easy Rebuilds**: Change code, rebuild, test immediately
+- **Persistence**: Your world data survives container restarts
+
+### Key Files
+- `Dockerfile` - Instructions to build the Minecraft server
+- `docker-compose.yml` - Configuration to run everything
+- `plugin/` - Your Java plugin source code
+- `server_data/` - Persistent world data
 
 ## 🎯 What You'll Learn
 
-- **Java Programming Basics** - Variables, methods, and object-oriented programming
-- **Minecraft Plugin Development** - Using the Spigot API to create amazing features
-- **Problem Solving** - Breaking down challenges into manageable steps
-- **Creative Coding** - Building interactive experiences that players love
-
-## 🚀 Quick Start Guide
-
-### 1. Choose Your Development Environment
-
-You have two options for working on this project:
-
-#### Option A: GitHub Codespaces (Recommended for Beginners)
-✅ **Pros**: No setup required, works in your browser, pre-configured environment  
-❌ **Cons**: You'll code in the cloud but need to run Minecraft server locally
-
-**Features included:**
+- **Java Programming** - Variables, methods, object-oriented programming
+- **Minecraft Plugin Development** - Using the Paper API
+- **Docker Basics** - Container management and debugging
+- **Problem Solving** - Breaking challenges into manageable steps
 - 🚀 **Auto-setup** - Java 17, Maven, and all extensions pre-installed
 - 🛠️ **Helpful commands** - `mcbuild`, `mcpackage`, `mctest` aliases ready to use  
 - 🎯 **Quick start** - Run `./quick-start.sh` to begin your first challenge
