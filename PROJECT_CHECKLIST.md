@@ -27,7 +27,7 @@
 ### Learning Content
 - [x] Create `challenges/` directory structure
 - [x] Write Challenge 1: "Your First Command"
-- [ ] Write Challenge 2: "Magic Messages"
+- [x] Write Challenge 2: "Magic Messages"
 - [ ] Write Challenge 3: "Item Giver"
 - [ ] Write Challenge 4: "Teleportation Fun"
 - [x] Create `examples/` directory with working code samples
