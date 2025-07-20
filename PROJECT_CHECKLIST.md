@@ -25,12 +25,12 @@
 - [ ] Set up automatic code documentation generation
 
 ### Learning Content
-- [ ] Create `challenges/` directory structure
-- [ ] Write Challenge 1: "Your First Command"
+- [x] Create `challenges/` directory structure
+- [x] Write Challenge 1: "Your First Command"
 - [ ] Write Challenge 2: "Magic Messages"
 - [ ] Write Challenge 3: "Item Giver"
 - [ ] Write Challenge 4: "Teleportation Fun"
-- [ ] Create `examples/` directory with working code samples
+- [x] Create `examples/` directory with working code samples
 - [ ] Add code templates for common patterns
 
 ### Documentation
