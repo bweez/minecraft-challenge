@@ -1,29 +1,12 @@
-# Minecraft Coding Challenge - Docker Compose Configuration
-# This file defines how to run your Minecraft server in a container
-
 services:
   minecraft:
-    # Build the server image from our Dockerfile
     build: .
-    
-    # Map container ports to host ports
-    # 25565: Minecraft game port (connect your client here)
-    # 25575: RCON admin port (for server management)
+    container_name: minecraft-server
     ports:
       - "25565:25565"
-      - "25575:25575"  
-    
-    # Persist world data on the host machine
-    # This ensures your worlds survive container restarts
+      - "25575:25575"
     volumes:
       - ./server_data/world:/server/world
-      - ./server_data/world_nether:/server/world_nether  
+      - ./server_data/world_nether:/server/world_nether
       - ./server_data/world_the_end:/server/world_the_end
       - ./server_data/logs:/server/logs
-    
-    # Allow interactive terminal access
-    stdin_open: true
-    tty: true
-    
-    # Container name for easier reference
-    container_name: minecraft-server
